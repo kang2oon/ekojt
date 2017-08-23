@@ -1,0 +1,29 @@
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+html{height:100%;}
+body{background:#fff;padding:0;text-align:center;font-family:'Nanum Square';font-weight:400;position:relative;margin:0;height:100%;-webkit-font-smoothing:antialiased;}
+.wrapper{height:100%!important;height:100%;margin:0 auto;overflow:hidden;}
+a{text-decoration:none;}
+.tcenter{text-align:center;}
+.tright{text-align:right;}
+
+.fixed{position:fixed;}
+.top{width:1024px;top:30px;left:50%;margin-left:-512px;}
+.top h1{font-weight:900;font-size:48px;text-align:left;color:#fff;background:url(../images/logo_metapho.png) no-repeat 100% 50%;}
+.bottom{width:1024px;bottom:30px;left:50%;margin-left:-512px;text-align:left;}
+.bottom img{height:35px;}
+
+section{position:relative;color:#fff;}
+.page1{background:#2d3192;}
+.page2{background:#58a109;}
+.page3{background:#09a192;}
+.page4{background:#f65f64;}
+
+section .page_container{width:1024px;height:576px;position:absolute;top:50%;left:50%;margin:-288px -512px;text-align:left;font-size:18px;line-height:1.6;border:1px dotted #ccc;}
+section .page_container h3{font-size:32px;font-weight:900;}
+section .page_container h3+hr{border-width:5px;border-style:solid none none;border-color:rgba(255,255,255,.5);width:60px;display:inline-block;margin:15px 0 35px;}
+.main_tit{font-size:100px;}
+.main_tit strong{font-size:150px;color:color:rgba(255,255,255,1);}
+.main_tit span{color:rgba(255,255,255,0.25);}
+
+.agenda li{list-style-type:decimal-leading-zero;margin-left:50px;font-size:30px;margin-bottom:20px;}
+.agenda li span{padding-left:7px;font-size:18px;color:rgba(255,255,255,0.35);}
